@@ -1,0 +1,24 @@
+
+* {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit    ;
+}
+#demo {
+  border: solid 15px ;
+  display: block;
+  width: 240px;
+  padding: 15px ;
+  border-image: linear-gradient(to right, #005A5B, #007369,#008C72) 1;
+}  
+#demo2 {
+  border: solid 15px ;
+  display: block;
+  width: 240px;
+  padding: 15px ;
+  border-image: linear-gradient(to right, #005A5B, #007369,#008C72) 1;
+}  
+.body{
+  background-color: #ffffff;
+}

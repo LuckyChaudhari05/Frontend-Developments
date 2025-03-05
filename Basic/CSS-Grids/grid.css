@@ -1,0 +1,15 @@
+h1 {
+  color: blueviolet;
+  display: contents;
+}
+.grid {
+  display: grid;
+}
+.contain {
+  border: solid 1px red;
+  display: grid;
+
+}
+.container {
+  display: grid;
+}
