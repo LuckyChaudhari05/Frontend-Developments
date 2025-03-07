@@ -1,0 +1,1 @@
+let test = "the text is created \n for the test porpose";
