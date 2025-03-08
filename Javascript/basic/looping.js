@@ -38,3 +38,12 @@ function example(i) {
 //   console.log("<------ Next Table ------> ");
 // }
 
+let x = 1;
+do {
+  console.log(x);
+  x++
+}
+while(x <= 10)
+
+
+// console.log("The new Thing is that it will not be the same");
