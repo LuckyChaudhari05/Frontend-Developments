@@ -45,5 +45,3 @@ do {
 }
 while(x <= 10)
 
-
-// console.log("The new Thing is that it will not be the same");
