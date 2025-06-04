@@ -12,3 +12,4 @@ function signs(x) {
 }
 signs(-10);
 console.log(Math.sign(-10));
+
