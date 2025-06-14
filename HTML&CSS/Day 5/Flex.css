@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: black;
+}
+#parent { 
+  /* Flex container */
+  border: solid beige 10px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row nowrap;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  justify-content:center;
+  align-items: center;
+  /* align-content: start; */
+  height: 500px;
+}
+#parent div{
+  /* Flex items */
+  border: solid black 3px; 
+  padding: 20px;
+  min-width: 100px;
+  max-width: 200px;
+  max-height: 200px;
+  min-height: 100px;
+  background: radial-gradient(rgb(135, 135, 255),white);
+}
