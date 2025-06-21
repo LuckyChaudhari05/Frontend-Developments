@@ -8,6 +8,7 @@ let count = 0;
 //For loop 
 for( i = 1 ; i <= 10 ; i++) {
   console.log(count += i);
+  // console.log("hello world");
 }
 
 console.log("New");

@@ -7,3 +7,6 @@ console.log(a);
 }
 signs(10);
 // console.log(a);
+const a = 10;
+console.log(a);
+// const a = 20;
