@@ -16,5 +16,5 @@ function updateCalculation(value) {
 function displayCalculation() {
   document.querySelector('.js-calculation')
     .innerHTML = calculation;
-}
+}4
  
