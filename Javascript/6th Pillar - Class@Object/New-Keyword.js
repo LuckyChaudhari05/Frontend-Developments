@@ -1,10 +1,18 @@
-let Iphone = {
-  name : "Iphone 13",
-  price : 100000,
-  rating : 4.5,
-  dis : "This is the new iphone 13",
-
-  display () {
-    console.log("First Product : ",this);
+class product {
+  // name;
+  // price;
+  // rating;
+  // discreption;
+  constructor(n,p,r, d){
+    this.name = n;
+    this.price = p;
+    this.rating = r;
+    this.discreption = d;
+  }
+  display(){
+    // display product
   }
 }
+//  New keyword create the new empty object 
+const p = new product("Onepluse", 50000 ,4.9,"This is the new onepluse node 3");
+console.log(p);
