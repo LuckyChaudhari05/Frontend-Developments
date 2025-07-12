@@ -1,0 +1,1 @@
+console.log(products.arr[0].getCategory());
