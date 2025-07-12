@@ -8,9 +8,10 @@ const player  = {
   }
 }
 
-const obj = function () {
-  console.log(this.getdatile());
+const obj = function (x,y) {
+  console.log(x + y);
+ this.getdatile();
 }
-let x = obj.bind(player);    // Bind will return the new funciton
-x();
-console.log(x);
+
+obj.call(player,10,5);  // Call will return the same object
+
