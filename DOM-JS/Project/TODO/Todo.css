@@ -1,0 +1,75 @@
+body {
+  /* width: 50%; */
+  margin: 50px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #86b9fc82;
+
+}
+.BOX {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 15px;
+}
+.container {
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tname { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 45px;
+  width: 45px;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+}
+.inputField {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 15px;
+  padding-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.inputField:hover {
+  border: 1px solid #4191FD;
+  text-decoration:#4191FD solid 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+.addTodo {
+  padding: 15px 20px;
+  margin-left: 5px;
+  /* border: 1px solid rgb(221, 255, 121); */
+  border: none;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #4191FD;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.addTodo:hover {
+  background-color: #86b9fc82;
+  color: #4191FD;
+  transition: all 0.2s ease-in-out;
+}
+.to-dos {
+  margin-top: 25px;
+}
