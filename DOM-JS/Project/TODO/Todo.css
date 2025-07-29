@@ -112,10 +112,9 @@ li:last-child{
   border-bottom: none;
 }
 .Deletebtn {
-  /* background-color: #FF4500;
-  color: white; */
+  background-color: #FF4500;
+  color: white;
   margin-left: 10px;
-  background-image: url(icons8-delete.svg);
 }
 .Deletebtn , .Editbtn {
   /* font-size: 15px; */
@@ -134,7 +133,7 @@ li:last-child{
   transition: all 0.2s ease-in-out;
 }
 .Deletebtn:hover {
-  /* background-color: #ff634756;
-  color: #FF4500; */
+  background-color: #ff634756;
+  color: #FF4500;
   transition: all 0.2s ease-in-out;
 }

@@ -76,3 +76,5 @@ document.addEventListener("DOMContentLoaded", () => {
     displayTODO(todo);   
   });
 });
+
+// the the sum of the int is the total of square of the int i = 12; j = 33;
